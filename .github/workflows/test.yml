@@ -35,7 +35,7 @@ jobs:
           #   runner_owner: "actions-runner-ppc64le"
           #   runner_files: "/opt/runner/_diag/Runner_*"
           #   worker_files: "/opt/runner/_diag/Worker_*"
-          - os: ubuntu-24.04-s390x
+          - os: ubuntu-24.04-x86_64
             runner_owner: "actions-runner-ppc64le"
             runner_files: "/opt/runner-cache/_diag/Runner_*"
             worker_files: "/opt/runner-cache/_diag/Worker_*"
